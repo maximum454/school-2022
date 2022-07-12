@@ -1,0 +1,23 @@
+.school-2022-banner{
+	margin-bottom: 40px;
+	&__body{
+		background-color: #FDC616;
+		border-radius: 25px;
+		padding: 20px;
+		min-height: 120px;
+		position: relative;
+		&:before{
+			content: '';
+			position: absolute;
+			top: -55px;
+			left: -150px;
+			background-image: url("../img/back_element_2.png");
+			background-repeat: no-repeat;
+			background-size: 100%;
+			width: 204px;
+			height: 220px;
+			z-index: -1;
+			pointer-events: none;
+		}
+	}
+}

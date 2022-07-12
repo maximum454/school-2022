@@ -1,0 +1,84 @@
+@import "./partials/normalize";
+@import "./partials/swiper-bundle";
+@import "mixin";
+@import "buttons";
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #FAFAFA;
+	&.lock {
+		overflow: hidden;
+	}
+}
+
+
+.wrp {
+	position: relative;
+	font-family: 'PT Sans';
+}
+
+
+.container {
+	max-width: 1390px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+p {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333333;
+}
+a{
+	transition: .3s ease;
+}
+
+.d-none {
+	display: none !important;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.d-block {
+	display: block;
+}
+
+.d-desktop-none {
+	display: none;
+	@include r(767) {
+		display: block;
+	}
+}
+
+.d-mobile-none {
+	display: block;
+	@include r(767) {
+		display: none !important;
+	}
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+
+@import "componets/header";
+@import "componets/footer";
+@import "componets/school-2022-stationery";
+@import "componets/school-2022-collections";
+@import "componets/school-2022-banner";
+
+
+

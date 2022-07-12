@@ -1,0 +1,39 @@
+.school-2022-collections{
+	margin-bottom: 40px;
+	&__header{
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	&__title{
+		font-family: 'PT Sans';
+		font-weight: 700;
+		font-size: 38px;
+		line-height: 49px;
+		color: #111111;
+	}
+	&__body{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 20px;
+	}
+	&__item{
+		display: block;
+		text-decoration: none;
+		&:hover{
+			opacity: .7;
+		}
+	}
+	@include r(767){
+		&__title{
+			font-size: 24px;
+			line-height: 28px;
+		}
+	}
+	@include r(374){
+		&__body{
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-gap: 20px;
+		}
+	}
+}
