@@ -1,17 +1,18 @@
 .btn{
 	display: inline-block;
+	font-style: normal;
 	font-weight: 700;
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 15px;
+	line-height: 19px;
+	color: #FFFFFF;
 	letter-spacing: 0.05em;
-	text-transform: uppercase;
 	text-align: center;
 	white-space: nowrap;
 	vertical-align: middle;
 	user-select: none;
 	border: 2px solid transparent;
 	padding: .907rem 2.4rem;
-	border-radius: 0;
+	border-radius: 25px;
 	cursor: pointer;
 	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 	text-decoration: none;
@@ -110,10 +111,10 @@
 	}
 
 	&.btn-outline-primary{
-		color: #000000;
+		color: #ffffff;
 		background-color: transparent;
 		background-image: none;
-		border-color: #000;
+		border-color: #ffffff;
         
 		&:hover {
 			color: #fff;

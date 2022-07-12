@@ -1,0 +1,14 @@
+.school-2022-title{
+	position: relative;
+	z-index: 1;
+	margin-top: -200px;
+	&__body{
+		text-align: center;
+		img{
+			object-fit: cover;
+			height: auto;
+			display: block;
+			margin: 0 auto;
+		}
+	}
+}
