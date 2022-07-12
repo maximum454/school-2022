@@ -36,4 +36,24 @@
 			color: #333333;
 		}
 	}
+	@include r(767){
+		&__logo{
+			max-width: 120px;
+		}
+		&__basket{
+			position: relative;
+			padding-left: 40px;
+			&:before{
+				width: 30px;
+				height: 30px;
+			}
+			span{
+				font-family: 'PT Sans';
+				font-weight: 400;
+				font-size: 15px;
+				line-height: 19px;
+				color: #333333;
+			}
+		}
+	}
 }

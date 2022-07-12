@@ -1743,7 +1743,7 @@ a {
 .school-2022-slider:after {
   content: '';
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
   background-image: url("../img/content_back_top.svg");
   background-repeat: no-repeat;
@@ -1776,6 +1776,7 @@ a {
 
 .school-2022-slider__figure {
   position: relative;
+  margin: 0;
 }
 
 .school-2022-slider__label {
@@ -2142,6 +2143,73 @@ a {
 
   .d-mobile-none {
     display: none !important;
+  }
+
+  .header__logo {
+    max-width: 120px;
+  }
+
+  .header__basket {
+    position: relative;
+    padding-left: 40px;
+  }
+
+  .header__basket:before {
+    width: 30px;
+    height: 30px;
+  }
+
+  .header__basket span {
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #333333;
+  }
+
+  .school-2022-slider__body {
+    margin-top: -20px;
+    padding: 60px 0 80px;
+  }
+
+  .school-2022-slider__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+
+  .school-2022-slider__figure {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  .school-2022-slider__label {
+    position: absolute;
+    bottom: 60px;
+    left: 30%;
+  }
+
+  .school-2022-slider__name {
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .school-2022-slider__text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+  .school-2022-slider .btn {
+    width: 100%;
+  }
+
+  .school-2022-title {
+    margin-top: 0;
   }
 
   .school-2022-stationery__title {

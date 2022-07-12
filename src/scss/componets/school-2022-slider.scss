@@ -24,7 +24,7 @@
 	&:after{
 		content: '';
 		position: absolute;
-		bottom: 0;
+		bottom: -1px;
 		left: 0;
 		background-image: url("../img/content_back_top.svg");
 		background-repeat: no-repeat;
@@ -48,6 +48,7 @@
 	}
 	&__figure{
 		position: relative;
+		margin: 0;
 	}
 	&__label{
 		position: absolute;
@@ -92,6 +93,39 @@
 		min-height: 500px;
 		&__item{
 			padding: 0 50px;
+		}
+	}
+	@include r(767){
+		&__body{
+			margin-top: -20px;
+			padding: 60px 0 80px;
+		}
+		&__item{
+			flex-direction: column;
+			gap: 20px;
+		}
+		&__figure{
+			max-width: 280px;
+			margin: 0 auto;
+		}
+		&__label{
+			position: absolute;
+			bottom: 60px;
+			left: 30%;
+		}
+		&__name{
+			font-size: 26px;
+			line-height: 30px;
+			text-align: center;
+		}
+		&__text{
+			text-align: center;
+			font-size: 16px;
+			line-height: 20px;
+			margin-bottom: 20px;
+		}
+		.btn{
+			width: 100%;
 		}
 	}
 }
