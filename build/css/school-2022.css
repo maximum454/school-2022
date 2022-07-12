@@ -1894,6 +1894,9 @@ a {
   padding: 30px;
   position: relative;
   min-height: 200px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 calc(25% - 60px);
+          flex: 1 0 calc(25% - 60px);
 }
 
 .school-2022-stationery__item:before {
@@ -1915,14 +1918,11 @@ a {
 
 .school-2022-stationery__item--item1 {
   -webkit-box-flex: 1;
-      -ms-flex: 1 0 660px;
-          flex: 1 0 660px;
+      -ms-flex: 1 0 calc(50% - 60px);
+          flex: 1 0 calc(50% - 60px);
 }
 
 .school-2022-stationery__item--item2 {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 315px;
-          flex: 1 0 315px;
   background: -o-linear-gradient(338.47deg, #009CCC 2.5%, #66DBFF 100%);
   background: linear-gradient(111.53deg, #009CCC 2.5%, #66DBFF 100%);
 }
@@ -1930,38 +1930,21 @@ a {
 .school-2022-stationery__item--item3 {
   background-image: -o-linear-gradient(338.04deg, #E66027 0%, #FFA024 100%);
   background-image: linear-gradient(111.96deg, #E66027 0%, #FFA024 100%);
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 315px;
-          flex: 1 0 315px;
 }
 
 .school-2022-stationery__item--item4 {
   background-color: #E6B95A;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 315px;
-          flex: 1 0 315px;
 }
 
 .school-2022-stationery__item--item5 {
   background-color: #C69EE8;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 315px;
-          flex: 1 0 315px;
 }
 
 .school-2022-stationery__item--item6 {
   background-color: #F26670;
   -webkit-box-flex: 1;
-      -ms-flex: 1 0 660px;
-          flex: 1 0 660px;
-}
-
-.school-2022-stationery__item img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  display: block;
-  height: auto;
-  margin: 0;
+      -ms-flex: 1 0 calc(50% - 60px);
+          flex: 1 0 calc(50% - 60px);
 }
 
 .school-2022-stationery__figure {
@@ -1969,6 +1952,14 @@ a {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+.school-2022-stationery__figure img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  height: auto;
+  margin: 0;
 }
 
 .school-2022-stationery__name {
@@ -2124,6 +2115,24 @@ a {
   .school-2022-title {
     margin-top: -100px;
   }
+
+  .school-2022-stationery__item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 calc(33% - 60px);
+            flex: 1 0 calc(33% - 60px);
+  }
+
+  .school-2022-stationery__item--item1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 calc(66% - 60px);
+            flex: 1 0 calc(66% - 60px);
+  }
+
+  .school-2022-stationery__item--item6 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 calc(66% - 60px);
+            flex: 1 0 calc(66% - 60px);
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -2140,16 +2149,10 @@ a {
     line-height: 28px;
   }
 
-  .school-2022-stationery__item--item1 {
+  .school-2022-stationery__item {
     -webkit-box-flex: 1;
-        -ms-flex: 1 0 315px;
-            flex: 1 0 315px;
-  }
-
-  .school-2022-stationery__item--item6 {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 0 315px;
-            flex: 1 0 315px;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
   }
 
   .school-2022-stationery__figure {
