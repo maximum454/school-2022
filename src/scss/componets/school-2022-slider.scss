@@ -87,4 +87,11 @@
 	.swiper-button-next:after{
 		display: none;
 	}
+	@include r(1023){
+		margin: -50px auto;
+		min-height: 500px;
+		&__item{
+			padding: 0 50px;
+		}
+	}
 }

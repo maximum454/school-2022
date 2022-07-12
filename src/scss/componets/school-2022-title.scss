@@ -11,4 +11,7 @@
 			margin: 0 auto;
 		}
 	}
+	@include r(1023){
+		margin-top: -100px;
+	}
 }
