@@ -2,7 +2,7 @@
 Галамарт лендинг "Отличная школа 2022"
 
 
-https://maximum454.github.io/school-2022/
+https://maximum454.github.io/school-2022/build/
 
 
 В сборке присутствуют плагины:
